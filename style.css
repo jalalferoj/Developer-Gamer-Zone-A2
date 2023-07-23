@@ -9,25 +9,19 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 120px;
-    white-space: nowrap;
-    
+    white-space: nowrap; 
 }
-
 .nav-title {
     color: #0B0223;
     font-size: 45px;
     font-weight: 700;
     text-align: center;
     margin-right: 600px;
-    
 }
-
 nav>ul{
     display: flex;
     align-items: center;
-    
 }
-
 nav li {
     list-style: none;
     margin-right: 50px;
@@ -41,7 +35,6 @@ nav a{
 }
 .header{
     background-color: #FFFF;
-
 }
 .btn-primary {
     width: 150px;
@@ -49,5 +42,48 @@ nav a{
     flex-shrink: 0; 
     border-radius: 5px;
     border: 0;
+}
+.header{
+    background-color: #FFF;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.banner .first-pic{
+    width: 600px;
+}
 
+.banner-play{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.banner-title{
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+}
+.text-one{
+    color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.jinan-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
 }
