@@ -213,4 +213,74 @@ p{
     align-items: center;
     margin-right: 140px;
 }
+/*---footer----*/
+footer{
+    background-color: #0B0223;
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    gap: 100px;
 
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: 10px 150px;
+    white-space: nowrap; 
+    margin-right: 100px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 45px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1300px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer-social{
+    
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-para{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+    }
+    nav,
+    nav > ul,
+    .header,
+    .nav-title,
+    .banner,
+    .gamer-image, 
+    .gamer, 
+    .four-col,
+    .play-game-content,
+    .fotter-content,
+    .footer {
+        flex-direction: column;
+    }
+    
+    
+}
