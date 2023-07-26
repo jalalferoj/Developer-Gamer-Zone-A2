@@ -207,12 +207,20 @@ p{
     font-weight: 200;
 }
 /*-------------------play-game-content---------------*/
-.playgame-content{
+.gamer-im{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 140px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+
 }
+/*-------------------carrier section---------------*/
+.carrer-section{
+    background-color: #ff42f5;
+    margin: 100px 0px 100px 0px;
+}
+/*-------------------footer section---------------*/
 /*---footer----*/
 footer{
     background-color: #0B0223;
@@ -277,7 +285,7 @@ footer{
     .gamer, 
     .four-col,
     .play-game-content,
-    .fotter-content,
+    .footer-content,
     .footer {
         flex-direction: column;
     }
